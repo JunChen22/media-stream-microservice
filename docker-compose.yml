@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  video-db:
+    image: postgres:9.6.10
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: videodb
+    ports:
+      - 5432:5432
+    volumes:
+      - video-data:/var/lib/postgresql/data
+      - ./document/data.sql:/docker-entrypoint-initdb.d/data.sql
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      retries: 5
+
+  video:
+    build: video
+    image: video
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=password
+    ports:
+      - 8080:8080
+
+volumes:
+  video-data:

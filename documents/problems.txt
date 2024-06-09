@@ -1,0 +1,40 @@
+Q:  org/springframework/boot/maven/RepackageMojo has been compiled by a more recent version of the Java Runtime
+(class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+
+A: java version incompatibility issues. Mine was using JDK 8 as environment and IntelliJ using 17. Upgrading to Spring boot 3.x
+   requires java 17 minimum, and I was still using 2.7.x which is fine with java 8.
+
+    sudo apt update
+    sudo apt install openjdk-17-jdk
+    nano ~/.bashrc
+    export JAVA_HOME=/path/to/your/jdk-17
+    export PATH=$JAVA_HOME/bin:$PATH
+
+    switch back to java 8
+
+    sudo apt update
+    sudo apt install openjdk-8-jdk
+    nano ~/.bashrc
+    export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+    export PATH=$JAVA_HOME/bin:$PATH
+
+    check java version
+    java -version
+
+
+
+Q: "Unable to find main class" for library module like common and util module.
+
+A: caused by parent pom file having build for all its sub/child module
+
+    this will make common and util class to build/find main class. only have it in module that needs it.
+    create plugin management instead.
+    	<build>
+    		<plugins>
+    			<plugin>
+    				<groupId>org.springframework.boot</groupId>
+    				<artifactId>spring-boot-maven-plugin</artifactId>
+    			</plugin>
+    		</plugins>
+    	</build>
+
