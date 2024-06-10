@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134fe32d-5813-461e-9835-d0e3e507e93b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/src/main/java/com/itsthatjun/media/CommentsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documents/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documents/problems.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/src/main/java/com/itsthatjun/media/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/VideoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/VideoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

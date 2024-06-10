@@ -1,7 +1,8 @@
 package com.itsthatjun.media.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 
@@ -16,13 +17,5 @@ public class Video {
     private Long id;
 
     private String title;
-
-    private String description;
-
-    private String url;
-
-    private String thumbnailUrl;
-
-    private Date uploadDate;
 
 }

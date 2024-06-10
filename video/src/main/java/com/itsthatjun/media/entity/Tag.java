@@ -18,6 +18,4 @@ public class Tag {
 
     private String name;
 
-    private Set<Video> videos;
-
 }
