@@ -4,13 +4,14 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "tag")
+@Table(name = "category")
 @Getter
 @Setter
-public class Tag {
+public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +20,9 @@ public class Tag {
     @Column(nullable = false, unique = true)
     private String name;
 
-    @ManyToMany(mappedBy = "tags")
-    private Set<Video> videos;
+    @Column(length = 500)
+    private String description;
+
+    private Set<Video> videos = new HashSet<>();
 
 }

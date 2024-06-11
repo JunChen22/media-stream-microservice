@@ -1,0 +1,6 @@
+-- CREATE SEQUENCE media_seq START 1;
+
+-- ALTER TABLE video
+-- ALTER COLUMN upload_date SET DEFAULT CURRENT_TIMESTAMP;
+
+

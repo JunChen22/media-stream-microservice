@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134fe32d-5813-461e-9835-d0e3e507e93b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/documents/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/VideoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/VideoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/controller/VideoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/implementation/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/implementation/VideoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +63,12 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SQL&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
