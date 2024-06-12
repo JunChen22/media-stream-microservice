@@ -5,17 +5,18 @@ import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.Set;
 
 @Entity
 @Table(name = "video")
 @Getter
 @Setter
-public class Video {
+public class Video implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "video_seq")
+    @SequenceGenerator(name = "video_seq", sequenceName = "video_sequence", allocationSize = 1)
     private Long id;
 
     @Column(nullable = false)
@@ -33,6 +34,7 @@ public class Video {
     @CreationTimestamp
     private LocalDateTime uploadDate;
 
+    /*
     private int duration;
 
     @Column(columnDefinition = "bigint default 0")
@@ -44,14 +46,12 @@ public class Video {
     @Column(columnDefinition = "bigint default 0")
     private Long dislikes;
 
-    /*
     @ManyToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
     private Category category;
-     */
 
     private boolean isPublic;
     private Set<Tag> tags;
-
+     */
 }

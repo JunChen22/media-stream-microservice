@@ -1,5 +1,6 @@
 package com.itsthatjun.media.controller;
 
+import com.itsthatjun.media.DTO.VideoDTO;
 import com.itsthatjun.media.entity.Video;
 import com.itsthatjun.media.service.VideoService;
 import org.slf4j.Logger;
@@ -21,12 +22,12 @@ public class VideoController {
     }
 
     @GetMapping("/{id}")
-    public Video getVideo(@PathVariable Long id) {
+    public VideoDTO getVideo(@PathVariable Long id) {
         return videoService.getVideo(id);
     }
 
     @PostMapping
-    public Video postVideo(@RequestBody Video newVideo) {
+    public VideoDTO postVideo(@RequestBody VideoDTO newVideo) {
         videoService.postVideo(newVideo);
         return newVideo;
     }

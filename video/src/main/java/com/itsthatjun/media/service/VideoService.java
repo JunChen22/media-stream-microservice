@@ -1,11 +1,11 @@
 package com.itsthatjun.media.service;
 
-import com.itsthatjun.media.entity.Video;
+import com.itsthatjun.media.DTO.VideoDTO;
 
 public interface VideoService {
 
-    Video getVideo(Long id);
+    VideoDTO getVideo(Long id);
 
-    Video postVideo(Video video);
+    VideoDTO postVideo(VideoDTO video);
 
 }

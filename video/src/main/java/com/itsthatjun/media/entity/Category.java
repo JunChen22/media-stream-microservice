@@ -14,7 +14,8 @@ import java.util.Set;
 public class Category {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "category_seq")
+    @SequenceGenerator(name = "category_seq", sequenceName = "category_sequence", allocationSize = 1)
     private Long id;
 
     @Column(nullable = false, unique = true)
@@ -23,6 +24,6 @@ public class Category {
     @Column(length = 500)
     private String description;
 
-    private Set<Video> videos = new HashSet<>();
+    //private Set<Video> videos = new HashSet<>();
 
 }
