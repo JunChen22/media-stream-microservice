@@ -19,6 +19,11 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         #format_sql: true
 
+aws:
+  s3.bucket-name:
+  access.key.id:
+  secret.access.key:
+
 #logging:
  # level:
 #    org:

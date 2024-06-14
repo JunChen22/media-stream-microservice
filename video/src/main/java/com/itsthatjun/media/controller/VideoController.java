@@ -1,7 +1,6 @@
 package com.itsthatjun.media.controller;
 
 import com.itsthatjun.media.DTO.VideoDTO;
-import com.itsthatjun.media.entity.Video;
 import com.itsthatjun.media.service.VideoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

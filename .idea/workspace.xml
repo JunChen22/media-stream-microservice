@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134fe32d-5813-461e-9835-d0e3e507e93b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/entity/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/repository/VideoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/implementation/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/itsthatjun/media/service/implementation/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2ha57qt1WRvtwKIWo3eDjq9A1gS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
