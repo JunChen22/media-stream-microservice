@@ -20,9 +20,10 @@ spring:
         #format_sql: true
 
 aws:
-  s3.bucket-name:
-  access.key.id:
-  secret.access.key:
+  region: east-1
+  s3.bucket-name: spring-media
+  access.key.id: testid
+  secret.access.key: testkey
 
 #logging:
  # level:

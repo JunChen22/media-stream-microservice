@@ -17,6 +17,13 @@ public class S3Service {
     @Value("${aws.s3.bucket-name")
     private String bucketName;
 
+
+    @Value("${aws.access.key.id}")
+    private String keyId;
+
+    @Value("${aws.secret.access.key}")
+    private String accessKey;
+
     @Autowired
     public S3Service(S3Client s3Client) {
         this.s3Client = s3Client;
