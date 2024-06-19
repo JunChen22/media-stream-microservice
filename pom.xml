@@ -125,13 +125,6 @@
 				<artifactId>s3</artifactId>
 				<version>${aws.s3.version}</version>
 			</dependency>
-
-			<!-- Spring Cloud AWS (optional but useful for easier configuration) -->
-			<dependency>
-				<groupId>io.awspring.cloud</groupId>
-				<artifactId>spring-cloud-aws-context</artifactId>
-				<version>${aws.spring.cloud}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
